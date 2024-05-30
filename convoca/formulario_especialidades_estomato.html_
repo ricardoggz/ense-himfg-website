@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Robots" content="noindex">
+	  <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+	  
+    
+    <title>HIMFG Convocatoria para aspirantes a cursos de especialización</title>
+
+    <!-- CSS -->    
+    <link rel="shortcut icon" href="https://framework-gb.cdn.gob.mx/favicon.ico">
+    <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://framework-gb.cdn.gob.mx/assets/styles/main.css">
+
+    <!-- Respond.js soporte de media queries para Internet Explorer 8 -->
+    <!-- ie8.js EventTarget para cada nodo en Internet Explorer 8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ie8/0.2.2/ie8.js"></script>
+    <![endif]-->
+    
+</head>
+  
+  <body>
+	<!-- nav -->
+	<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+	        <span class="sr-only">Interruptor de Navegación</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="http://www.himfg.edu.mx">HIMFG</a></div>
+	    <div class="collapse navbar-collapse" id="subenlaces">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="index.html">Inicio</a></li>
+	        <li><a href="#">Avisos</a></li>
+	        <li><a href="documentos/convocatoria20.pdf">Convocatoria PDF</a></li>
+	        <li><a href="documentos/flujograma.pdf">Flujograma</a></li>
+	        <li><a href="proceso_anexos.html">Descargas</a></li>
+	        <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+	        <li><a href="proceso_informescm.html">Informes</a></li>                                  
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- /nav -->
+
+
+    <!-- Contenido -->
+    <main class="page">
+      <div class="container">
+    <!-- Contenido -->
+
+ 	<div class="clearfix">                   
+	 	<br/><br/>
+		 <ol class="breadcrumb">
+		    <li><a href="index.html"><i class="icon icon-home"></i></a></li>
+		    <li class="active"><a href="#">Registro en línea</a></li>
+		 </ol>
+	</div>
+
+
+<ul class="wizard-steps">	
+        <li class="completed">
+            <h5>Paso 1</h5>
+            <span>Aviso de privacidad</span>
+        </li>
+        <li class="completed">
+            <h5>Paso 2</h5>
+            <span>Instrucciones</span>
+        </li>
+        <li class="completed">
+            <h5>Paso 3</h5>
+            <span>Registro</span>
+        </li>
+        <li> 
+            <h5>Paso 4</h5>
+            <span>Comprobante</span>
+        </li>
+     <!-- <li class="success"> -->
+     <!-- <i class="glyphicon glyphicon-ok-circle"></i> -->
+     <!-- </li> -->
+    </ul>
+
+
+<div class="alert alert-warning alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>¡Importante!</strong> Complete el formulario con los datos que se indican. Todos lo datos son requeridos. Utilice mayúsculas, minúsculas y acentos, NO utlice apostrofes ni diagonales ( ' /). Para dejar algún campo sin respuesta, debe ESCRIBIR la palabra "OMITIDO" sin comillas.
+</div>
+
+
+<!-- form -->
+
+<form method="POST" action="registro_estomato.php" autocomplete="off">
+
+            <p><b><span class="text-info">Datos personales:</span></b></p><hr>
+
+			<div class="checkbox">
+			  <label>
+			    <input type="checkbox" name="consentimiento" title="Marca la casilla para continuar">
+			    <- Consiento y autorizo que mis datos personales sean tratados conforme a lo previsto en el aviso de privacidad, el cual he leido (marque la casilla a la izquierda).
+			  </label>
+			</div>
+
+</br>
+			<div class="row">
+             <div class="col-md-12">
+				<label>
+				Seleccione la Especialidad a la que desea ingresar:					
+				<select class="form-control" required="required" name="D1" title="Selecciona la especialidad">
+				  <option></option>					
+				  <option>ORTODONCIA</option>				  
+				  <option>ODONTOPEDIATRÍA</option>				  
+				</select>
+				</label>				
+			 </div>
+			</div>
+
+</br>
+
+<!-- Nombre y especialidad -->
+
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="name">Nombre(s)<span class="form-text">*</span>:</label>
+                    <input type="text" name="T3" class="form-control" required="required" placeholder="Ingresa tu nombre" title="Nombre">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Primer apellido<span class="form-text">*</span>:</label>
+                    <input type="text" name="T1" class="form-control" required="required" placeholder="Ingresa tu primer apellido"title="Primer apellido">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Segundo apellido<span class="form-text">*</span>:</label>
+                    <input type="text" name="T2" class="form-control" required="required" placeholder="Ingresa tu segundo apellido">
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Nacionalidad<span class="form-text">*</span>:</label>
+                    <input type="text" name="T11" class="form-control" required="required" placeholder="Ingresa tu nacionalidad">
+                  </div>
+                </div>
+                <div class="col-md-4">
+					<label>
+					Sexo *:					
+					<select class="form-control" name="D2" required="required" title="Selecciona">
+					  <option></option>					
+					  <option>Hombre</option>
+					  <option>Mujer</option>
+					</select>
+					</label>	                  
+                </div>
+                <div class="col-md-4">
+					<label>
+					Estado civil *:					
+					<select class="form-control" name="D3" required="required" title="Selecciona">
+					  <option></option>											
+					  <option>Soltero</option>					
+					  <option>Casado</option>
+					  <option>Union libre</option>
+					  <option>Divorciado</option>					
+					  <option>Viudo</option>
+					</select>
+					</label>	                
+			   </div>
+            </div>
+
+
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Teléfono Celular<span class="form-text">*</span>:</label>
+                    <input type="text" name="T89" class="form-control" required="required"  placeholder="Ingresa tu número de celular.">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="mail">Correo electrónico<span class="form-text">*</span>:</label>
+                    <input type="email" name="T23" class="form-control" placeholder="ejemplo@dominio.com">
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">R.F.C. (mexicanos)<span class="form-text">*</span>:</label>
+                    <input type="text" name="T12" class="form-control" required="required"  placeholder="Ingresa tu R.F.C.">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">C.U.R.P. (mexicanos)<span class="form-text">*</span>:</label>
+                    <input type="text" name="T13" class="form-control" required="required"  placeholder="Ingresa tu C.U.R.P.">
+                  </div>
+	            </div>
+              <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Número de pasaporte (extranjeros)<span class="form-text">*</span>:</label>
+                    <input type="text" name="T24" class="form-control" required="required"  placeholder="Ingresa número de pasaporte">
+                  </div>
+                </div>
+            </div>
+
+         
+
+<!-- Lugar y fecha de nacimiento -->
+
+</br>
+<p><b><span class="text-info">Lugar y fecha de nacimiento:</span></b></p>
+<hr>
+
+
+            <div class="row">    
+            	<div class="col-md-4">                      
+                <div class="form-group datepicker-group ">
+                  <label class="control-label" for="calendarYear">Fecha de nacimiento</label>
+                  <input type="text" class="form-control" id="fnacimiento" name="fnacimiento" >
+                  <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                </div>
+            	</div>
+                <div class="col-md-4">
+                  <div class="form-group">
+ 					<label>
+					Estado de nacimiento:					
+					<select class="form-control" required="required" name="D8">
+			          <option></option>
+			          <option>Otro-Extranjero</option>
+			          <option>Aguascalientes</option>
+			          <option>Baja California Norte</option>
+			          <option>Baja California Sur</option>
+			          <option>Campeche</option>
+			          <option>Chiapas</option>
+			          <option>Chihuahua</option>
+			          <option>Coahuila</option>
+			          <option>Colima</option>
+			          <option>Ciudad de México</option>
+			          <option>Durango</option>
+			          <option>Estado de México</option>
+			          <option>Guanajuato</option>
+			          <option>Guerrero</option>
+			          <option>Hidalgo</option>
+			          <option>Jalisco</option>
+			          <option>Michoacán</option>
+			          <option>Morelos</option>
+			          <option>Nayarit</option>
+			          <option>Nuevo León</option>
+			          <option>Oaxaca</option>
+			          <option>Puebla</option>
+			          <option>Querétaro</option>
+			          <option>Quintana Roo</option>
+			          <option>San Luis Potosí</option>
+			          <option>Sinaloa</option>
+			          <option>Sonora</option>
+			          <option>Tabasco</option>
+			          <option>Tamaulipas</option>
+			          <option>Tlaxcala</option>
+			          <option>Veracruz</option>
+			          <option>Yucatán</option>
+			          <option>Zacatecas</option>
+					</select>
+					</label>	
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="ciudad">Ciudad<span class="form-text">*</span>:</label>
+                    <input type="text" name="T4" class="form-control" placeholder="Ingresa ciudad">
+                  </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="pais">Pais<span class="form-text">*</span>:</label>
+                    <input type="text" name="T6" class="form-control" required="required" placeholder="Ingresa pais">
+                  </div>
+            	</div>
+           </div>
+
+</br>
+
+<div class="clearfix">                   
+<p><b><span class="text-info">Domicilio:</span></b></p>
+<hr>
+</div>
+
+            <div class="row">    
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="estado">Calle y número exterior<span class="form-text">*</span>:</label>
+                    <input type="text" name="T14" class="form-control" required="required" placeholder="Ingresa calle y número exterior">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="estado">Número o letra interior<span class="form-text">*</span>:</label>
+                    <input type="text" name="T15" class="form-control" required="required" placeholder="Número o letra interior"title="Estado">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="ciudad">Colonia<span class="form-text">*</span>:</label>
+                    <input type="text" name="T16" class="form-control" placeholder="Ingresa colonia">
+                  </div>
+                </div>
+            </div>
+
+            <div class="row">    
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="estado">Alcaldía o municipio<span class="form-text">*</span>:</label>
+                    <input type="text" name="T17" class="form-control" required="required" placeholder="Ingresa alcaldía o municipio">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="estado">Ciudad<span class="form-text">*</span>:</label>
+                    <input type="text" name="T18" class="form-control" required="required" placeholder="Ingresa ciudad" title="Estado">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                	<div class="form-group">
+					<label>
+					Estado*:					
+					<select class="form-control" name="D9" required="required">
+			          <option></option>
+			          <option>Otro-Extranjero</option>
+			          <option>Aguascalientes</option>
+			          <option>Baja California Norte</option>
+			          <option>Baja California Sur</option>
+			          <option>Campeche</option>
+			          <option>Chiapas</option>
+			          <option>Chihuahua</option>
+			          <option>Coahuila</option>
+			          <option>Colima</option>
+			          <option>Ciudad de México</option>
+			          <option>Durango</option>
+			          <option>Estado de México</option>
+			          <option>Guanajuato</option>
+			          <option>Guerrero</option>
+			          <option>Hidalgo</option>
+			          <option>Jalisco</option>
+			          <option>Michoacán</option>
+			          <option>Morelos</option>
+			          <option>Nayarit</option>
+			          <option>Nuevo León</option>
+			          <option>Oaxaca</option>
+			          <option>Puebla</option>
+			          <option>Querétaro</option>
+			          <option>Quintana Roo</option>
+			          <option>San Luis Potosí</option>
+			          <option>Sinaloa</option>
+			          <option>Sonora</option>
+			          <option>Tabasco</option>
+			          <option>Tamaulipas</option>
+			          <option>Tlaxcala</option>
+			          <option>Veracruz</option>
+			          <option>Yucatán</option>
+			          <option>Zacatecas</option>
+					</select>
+					</label>
+					</div>	                
+			   </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">                
+                  <div class="form-group">
+                    <label for="name">Pais<span class="form-text">*</span>:</label>
+                    <input type="text" name="T22" class="form-control" required="required" placeholder="Ingresa el pais">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Código postal<span class="form-text">*</span>:</label>
+                    <input type="text" name="T20" class="form-control" required="required" placeholder="Ingresa código postal">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group clearfix">
+                    <div class="form-control-lada">
+                      <label for="lada">Lada<span class="form-text">*</span>:</label>
+                      <input type="number" name="T83" class="form-control" placeholder="Lada">
+                    </div>
+                    <div class="form-control-phone">
+                      <label for="phone">Teléfono fijo<span class="form-text">*</span>:</label>
+                      <input type="number" name="T84" class="form-control" placeholder="Teléfono fijo">
+                    </div>
+                  </div>
+                </div>                         
+			</div>
+
+</br>
+<div class="clearfix">                  
+<p><b><span class="text-info">Datos personales de un familiar cercano:</span></b></p>
+<hr>
+</div>
+
+           <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="name">Nombre Completo<span class="form-text">*</span>:</label>
+                    <input type="text" name="T35" class="form-control" required="required" placeholder="Ingresa su nombre" title="Nombre">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Parentesco<span class="form-text">*</span>:</label>
+                    <input type="text" name="T36" class="form-control" required="required" placeholder="Ingresa el Parentesco"title="Primer apellido">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Ciudad	en donde reside<span class="form-text">*</span>:</label>
+                    <input type="text" name="T47" class="form-control" placeholder="Ingresa la ciudad en donde reside">
+                  </div>
+                </div>
+           </div>
+
+
+           <div class="row">
+                <div class="col-md-4">
+                	<div class="form-group">
+					<label>
+					Estado en que reside:					
+					<select class="form-control" name="D11" required="required">
+			          <option></option>
+			          <option>Otro-Extranjero</option>
+			          <option>Aguascalientes</option>
+			          <option>Baja California Norte</option>
+			          <option>Baja California Sur</option>
+			          <option>Campeche</option>
+			          <option>Chiapas</option>
+			          <option>Chihuahua</option>
+			          <option>Coahuila</option>
+			          <option>Colima</option>
+			          <option>Ciudad de México</option>
+			          <option>Durango</option>
+			          <option>Estado de México</option>
+			          <option>Guanajuato</option>
+			          <option>Guerrero</option>
+			          <option>Hidalgo</option>
+			          <option>Jalisco</option>
+			          <option>Michoacán</option>
+			          <option>Morelos</option>
+			          <option>Nayarit</option>
+			          <option>Nuevo León</option>
+			          <option>Oaxaca</option>
+			          <option>Puebla</option>
+			          <option>Querétaro</option>
+			          <option>Quintana Roo</option>
+			          <option>San Luis Potosí</option>
+			          <option>Sinaloa</option>
+			          <option>Sonora</option>
+			          <option>Tabasco</option>
+			          <option>Tamaulipas</option>
+			          <option>Tlaxcala</option>
+			          <option>Veracruz</option>
+			          <option>Yucatán</option>
+			          <option>Zacatecas</option>
+					</select>
+					</label>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Calle y numero exterior<span class="form-text">*</span>:</label>
+                    <input type="text" name="T41" class="form-control" required="required" placeholder="Ingresa calle y número"title="Calle y numero exterior">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Número interior<span class="form-text">*</span>:</label>
+                    <input type="text" name="T42" class="form-control" placeholder="Ingresa numero interior" title="numero exterior o S.N.">
+                  </div>
+                </div>
+            </div>
+
+
+           <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="name">Colonia<span class="form-text">*</span>:</label>
+                    <input type="text" name="T43" class="form-control" required="required" placeholder="Ingresa la Colonia" title="Nombre">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Alcaldía o municipio<span class="form-text">*</span>:</label>
+                    <input type="text" name="T44" class="form-control" required="required" placeholder="Ingresa la Alcaldía o municipio"title="Primer apellido">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Código Postal<span class="form-text">*</span>:</label>
+                    <input type="text" name="T45" class="form-control" placeholder="Ingresa el código Postal">
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">                
+                  <div class="form-group">
+                    <label for="name">Pais<span class="form-text">*</span>:</label>
+                    <input type="text" name="T49" class="form-control" required="required" placeholder="Ingresa el pais">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group clearfix">
+                    <div class="form-control-lada">
+                      <label for="lada">Lada<span class="form-text">*</span>:</label>
+                      <input type="number" id="lada" class="form-control" placeholder="Lada">
+                    </div>
+                    <div class="form-control-phone">
+                      <label for="phone">Teléfono fijo<span class="form-text">*</span>:</label>
+                      <input type="number" name="T87" class="form-control" placeholder="Teléfono fijo">
+                    </div>
+                  </div>
+                </div>                         			
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Teléfono celular<span class="form-text">*</span>:</label>
+                    <input type="text" name="T88" class="form-control" required="required" placeholder="Ingresa tu número de celular">
+                  </div>
+                </div>
+			</div>
+
+
+
+            <div class="row">                
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="mail">Correo electrónico<span class="form-text">*</span>:</label>
+                    <input type="email" name="T50" class="form-control" placeholder="ejemplo@dominio.com">
+                  </div>
+                </div>
+            </div>
+
+
+
+</br>
+<div class="clearfix">                  
+<p><b><span class="text-info">Datos académicos:</span></b></p>
+<hr>
+</div>
+
+
+           <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="name">licenciatura en<span class="form-text">*</span>:</label>
+                    <input type="text" name="T51" class="form-control" required="required" placeholder="Ingresa Título">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Nombre de la Universidad<span class="form-text">*</span>:</label>
+                    <input type="text" name="T52" class="form-control" required="required" placeholder="Ingresa Universidad">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Facultad o escuela<span class="form-text">*</span>:</label>
+                    <input type="text" name="T53" class="form-control" placeholder="Ingresa Facultad o Escuela">
+                  </div>
+                </div>
+           </div>
+
+
+          <div class="row">
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="name">Año en que inició<span class="form-text">*</span>:</label>
+                    <input type="number" name="T54" class="form-control" required="required" placeholder="Ingresa año">
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="firstName">Año en que finalizó<span class="form-text">*</span>:</label>
+                    <input type="number" name="T55" class="form-control" required="required" placeholder="Ingresa año"> 
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="secondName">Promedio final (Licenciatura, escala 0 a 10)<span class="form-text">*</span>:</label>
+                    <input type="text" name="T56" class="form-control" placeholder="En número promedio final con dos decimales" title="Por ejemplo 8.00, 8.03, 9.78 ingresar solo numeros.">
+                  </div>
+                </div>
+           </div>
+
+          <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="name">Lugar en su generación<span class="form-text"></span>:</label>
+                    <input type="text" name="T58" class="form-control" placeholder="Ingresa Lugar obtenido">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="firstName">Fecha de examen profesional<span class="form-text">*</span>:</label>
+                    <input type="text" name="T59" class="form-control" required="required" placeholder="Ingresa fecha">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="secondName">Número de cédula profesional<span class="form-text">*</span>:</label>
+                    <input type="text" name="T60" class="form-control" required="required" placeholder="Ingresa numero" title="Si está en trámite, indícalo">
+                  </div>
+                </div>
+           </div>
+
+
+</br>
+<div class="clearfix">                  
+<p><b><span class="text-info">Información Adicional</span></b></p>
+<hr>
+</div>
+
+
+         <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="name">Si habla alguna lengua indígena, indique cual<span class="form-text">*</span>:</label>
+                    <input type="text" name="T79" class="form-control" required="required" placeholder="Ingresa dato" title="Lengua indígena">
+                  </div>
+                </div>
+		 </div>
+
+</br>
+<p>* Campos obligatorios</p>
+<hr>
+
+
+  <button class="btn btn-primary pull-right" type="submit">Enviar</button>
+
+</form>
+<!-- /form -->
+
+
+      
+      <!-- /Contenido -->
+      <iframe frameborder="0" height="0%" src="update_footer_rlf.php" width="0%"></iframe></br>
+      </div>
+    </main>
+
+    <!-- JS -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+    <script src="https://framework-gb.cdn.gob.mx/assets/scripts/jquery-ui-datepicker.js"></script>
+
+    <script type="text/javascript">
+      $gmx(document).ready(function(){
+        $.datepicker.regional.es = {
+          closeText: 'Cerrar',
+          prevText: 'Ant',
+          nextText: 'Sig',
+          currentText: 'Hoy',
+          monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+          monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
+          dayNames: ['Domingo','Lunes','Martes','Mi&eacute;rcoles','Jueves','Viernes','S&aacute;bado'],
+          dayNamesShort: ['Dom','Lun','Mar','Mi&eacute;','Juv','Vie','S&aacute;b'],
+          dayNamesMin: ['Dom','Lun','Mar','Mie','Jue','Vie','S&aacute;b'],
+          weekHeader: 'Sm',
+          dateFormat: 'dd/mm/yy',
+          firstDay: 1,
+          isRTL: false,
+          showMonthAfterYear: false,
+          yearSuffix: ''};
+        $.datepicker.setDefaults($.datepicker.regional.es);
+        $( "#calendar" ).datepicker(); 
+        $( "#calendarYear" ).datepicker( { changeYear: true } );
+        $( "#fnacimiento" ).datepicker( { changeYear: true } );
+        $( ".datepicker-example" ).datepicker();
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    
+  </body>
+</html>

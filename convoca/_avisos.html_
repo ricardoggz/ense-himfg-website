@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HIMFG Convocatoria para aspirantes a cursos de especialización</title>
+
+    <!-- CSS -->
+    <link rel="shortcut icon" href="https://framework-gb.cdn.gob.mx/favicon.ico">
+    <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
+    <!-- Respond.js soporte de media queries para Internet Explorer 8 -->
+    <!-- ie8.js EventTarget para cada nodo en Internet Explorer 8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ie8/0.2.2/ie8.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Contenido -->
+      <main class="page">
+      <div class="container"> 
+    <!-- Contenido -->
+
+<!-- nav -->
+<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+  <!-- <div class="container"> -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+        <span class="sr-only">Interruptor de Navegación</span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">INSHIMFG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="subenlaces">
+      <ul class="nav navbar-nav navbar-right">          
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="documentos/convocatoria21.pdf">Convocatoria PDF</a></li>
+        <li><a href="proceso_aviso_privacidad.html">Registro en línea</a></li>
+        <li><a href="documentos/flujograma.pdf">Flujograma</a></li>
+        <li><a href="proceso_anexos.html">Descargas</a></li>
+        <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+        <li><a href="proceso_informescm.html">Informes</a></li>                          
+        </li>
+      </ul>
+    </div>
+  <!--</div> container--> 
+</nav>
+<!-- /nav -->
+								
+</br></br></br>
+     
+      <div align="center">
+	  <h3>CONVOCATORIA PARA ASPIRANTES A CURSOS DE ESPECIALIZACIÓN 2021</h3>
+	  </div>
+
+</br>
+
+<h3>Avisos</h3>
+<hr class="red">
+
+    <div class="alert alert-danger alert-dismissible">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <strong>A TODOS LOS ASPIRANTES A CURSOS DE ESPECIALIZACIÓN 2020</br><p> </p>  Debido a la situación epidemiológica actual referente a la pandemia por SARS-CoV-2 y tomando en cuenta las dificultades para el traslado a la Ciudad de México, la Dirección de Enseñanza y Desarrollo Académico ha tomado la decisión de modificar las fechas para la presentación de los exámenes y entrevistas de la siguiente manera: </strong> <p> </p>
+
+	</br>
+	<p><strong>La fecha límite para entrega y cotejo de documentación será  el 13 de noviembre a las 13 horas.</strong></p>
+	</br>
+
+	<strong>Pediatría y Genética Médica.</strong>
+	  <ol>
+	    <li>Exámenes de conocimientos, inglés y  psicométricos: domingo 22 de noviembre de 2020 a las 8 horas</li>
+	    <li>Entrevistas personales: 23 y 24 de  noviembre. Se asignará fecha y horario el día de los exámenes</li>
+	  </ol>
+	
+
+	</br>
+	<p><strong>Especialidades Pediátricas y Nutrición Clínica Pediátrica.</strong></p>
+	
+	  <ol>
+	    <li>Exámenes de conocimientos, inglés y  psicométricos: sábado 21 de noviembre de 2020 a las 8 horas</li>
+	    <li>Entrevistas personales: 18, 19 y 20  de noviembre. Se publicará fecha y horario en la convocatoria (<a href="http://ense.himfg.edu.mx/convocatoria">En este mismo portal de la convocatoria</a>)  el viernes 13 de noviembre.</li>
+	  </ol>
+	
+
+	</br>
+	<p><strong>Cursos de Posgrado de Alta Especialidad en Medicina.</strong></p>
+	
+	  <ol>
+	    <li>Exámenes de conocimientos, inglés y  psicométricos: domingo 22 de noviembre de 2020 a las 8 horas.</li>
+	    <li>Entrevistas personales: 23 de  noviembre. Se asignará fecha y horario el día de los exámenes.</li>
+	  </ol>
+	
+
+
+
+    </div>
+
+    <div class="alert alert-warning alert-dismissible">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <strong>¡Importante!</strong>  Debido a la pandemia de COVID-19, les informamos que se han suspendido los Cursos Universitarios de Especialización en <strong>Odontopediatría y Ortodoncia</strong> para el ciclo académico que iniciaría el próximo 1° de marzo de 2021. Por tal razón no se aceptarán postulantes a estos cursos en esta convocatoria. 
+    </div>
+
+
+
+
+      <!-- /Contenido -->
+      <iframe frameborder="0" height="0%" src="update_footer_idx.php" width="0%"></iframe>
+      </div>
+    </main>
+
+    <!-- JS -->
+    <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+
+  </body>
+</html>

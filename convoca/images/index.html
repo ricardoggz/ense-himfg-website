@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script language="JavaScript">    
+    var totalTiempo=1;    
+    var url="http://www.himfg.edu.mx";
+    function updateReloj()
+    {
+        document.getElementById('CuentaAtras').innerHTML = "... "+totalTiempo+"...";
+ 
+        if(totalTiempo==0)
+        {
+            window.location=url;
+        }else{
+            totalTiempo-=1;            
+            setTimeout("updateReloj()",1);
+        }
+    }
+    window.onload=updateReloj;
+    </script>
+</head><body> <font color="FFFFFF">
+<h2 id='CuentaAtras'></h2>
+</body></html>
